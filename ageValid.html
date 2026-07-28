@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+    function sum(){
+        let age = parseInt(prompt("Enter value of a"));
+        if(age >= 18){
+            alert("you are eligible for voting");
+            let c = confirm("Do you want to share your details")
+            if(c){
+                alert("your resposnse is saved");
+            }else{
+                alert("Thank you")
+            }
+
+        }else{
+            alert("you are not eligible for voting");
+        }
+        
+    }
+</script>
+<body>
+    <input style="color : purple; font-size: 30px;" type="button" onclick="sum()" value=" result" class="result">
+</body>
+</html>
