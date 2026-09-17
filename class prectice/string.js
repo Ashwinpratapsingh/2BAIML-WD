@@ -13,4 +13,5 @@ function fulname(Fname,lname){
 function physics(marks){
     return `${marks}`;
 }
+
 physics = (marks) =>`${marks}`;
