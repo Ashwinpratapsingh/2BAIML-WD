@@ -29,7 +29,6 @@ class BankAccount {
         console.log("Holder Name:", this.holderName);
         console.log("Balance:", this.balance);
     }
-
 }
 
 
